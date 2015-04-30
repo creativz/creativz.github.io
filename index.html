@@ -1,195 +1,477 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>I'm Zim Arcilla, Freelance Web Developer</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="assets/css/foundation.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/flattyshadow.css" />
+    <script src="assets/js/vendor/modernizr.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  </head>
+  <body>
+  <!-- NAV TOP BAR -->
 
-		<link rel="author" href="https://plus.google.com/u/0/109859280204979591787/about"/>
+  <!-- NAV TOP BAR -->
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        
-		<!--
-			* This demo was prepared for you by Petr Tichy - Ihatetomatoes.net
-			* Want to see more similar demos and tutorials?
-			* Help by spreading the word about Ihatetomatoes blog.
-			* Facebook - https://www.facebook.com/ihatetomatoesblog
-			* Twitter - https://twitter.com/ihatetomatoes
-			* Google+ - https://plus.google.com/u/0/109859280204979591787/about
-			* URL - http://ihatetomatoes.net/how-to-zoom-into-an-image-on-scroll/
-		-->
-		<link rel="stylesheet" href="assets/css/foundation.css">
-        <link rel="stylesheet" href="assets/css/normalize.css">
-        <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="assets/css/custom.css">
-        <script src="assets/js/vendor/modernizr.js"></script>
-        <style type="text/css">
-			.back-link a {
-				color: #4ca340;
-				text-decoration: none; 
-				border-bottom: 1px #4ca340 solid;
-			}
-			.back-link a:hover,
-			.back-link a:focus {
-				color: #408536; 
-				text-decoration: none;
-				border-bottom: 1px #408536 solid;
-			}
-			h1 {
-				height: 100%;
-				/* The html and body elements cannot have any padding or margin. */
-				margin: 0;
-				font-size: 14px;
-				font-family: 'Open Sans', sans-serif;
-				color: #1c1d1e;
-				font-size: 32px;
-				margin-bottom: 3px;
-			}
-			h2 {
-				color: #1c1d1e;
-				font-family: 'Open Sans', sans-serif;
-				font-weight: normal;
-			}
-			.entry-header .inner {
-				text-align: left;
-				margin: 0 auto 20px auto;
-				width: 800px;
-			}
-			.entry-header { padding-top: 20px; background-color: #fff; width:100%; position: fixed; top: 0; left: 0; z-index: 999999}
-			.socialLinks {
-				text-align: center;
-				margin-top: 20px;
-			}
-			.fb-like,
-			.twitter-follow-button,
-			.twitter-share-button {margin-right: 10px;}
-		</style>
-    </head>
-    <body class="loading">
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=580445718641008";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-            
-       	<div id="preloader">
-	       	<img src="assets/images/clouds.jpg" />
-	       	<img src="assets/images/img_earth2.jpg" />
-	       	<img src="assets/images/img_road.jpg" />
-       	</div>
+  <!-- MASTHEAD -->
+	<div id="masthead" class="full">
+  		<div class="masthead-content">
+  			<div class="row">
+  				<div class="large-12 large-centered columns">
+  					<img class="hidden" src="assets/images/myphoto.png">
+  					<h1 class="hidden">ZIM<span style="color:#a1a1a1;">ARCILLA</span></h1>	
+  					<p class="hidden">WEB DEVELOPER + WEB DESIGNER + PHOTOGRAPHER</p>
+  					<a class="hidden" href="#first-section"><i class="fa animated fadeInDown infinite fa-angle-down"></i></a>
+  				</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	
+  <!-- MASTHEAD END -->
 
-       	<nav class="top-bar" data-topbar role="navigation">
-		  <ul class="title-area">
-		    <li class="name">
-		      <h1><a href="#">ZIM<span style="color:gray">ARCILLA</span></a></h1>
-		    </li>
-		     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-		    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-		  </ul>
+  <!-- MAIN CONTENT -->
 
-		  <section class="top-bar-section">
-		    <!-- Right Nav Section -->
-		    <ul class="right">
-		      <li class="active"><a href="#">HOME</a></li>
-		      <li class="has-dropdown">
-		        <a href="#">PORTFOLIO</a>
-		        <ul class="dropdown">
-		          <li><a href="#">WEB DESIGN</a></li>
-		          <li class="active"><a href="#">PHOTOGRAPHY</a></li>
-		        </ul>
-		      </li>
-		    </ul>
+  	<section id="first-section" class="about-me">
+  		<div class="center">
+  			<div class="row">
+  				<div class="large-12 columns">
+  					<h1 class="dark-title">WHAT I DO</h1>
+  					<hr id="title_hr" class="color-green">
+  					<p>I'm web designer & web developer with 3 years of professional experience. I'm interested in all kinds of multimedia, but my major focus is on designing & developing web. I have a passion for minimalist & flat design and a lover of all things creative.</p>	
+  				</div>
+  			</div>
+  		</div>
+  		<br>
+  		<div class="row">
+  			<div class="large-4 medium-4 columns center border-both">
+  				<img class="hidden" src="assets/images/webdev.png"><br>
+  				&nbsp;
+  				<h4>WEB DEVELOPMENT</h4>
+  				<p>Developing pixel perfect design and code for personal or business websites. This includes hand crafted websites from top to bottom and websites built around a CMS.</p>
+  				
+  			</div>
+  			<div class="large-4 medium-4 columns center">
+  				<img class="hidden" src="assets/images/responsive.png"><br>
+  				&nbsp;
+  				<h4>WEB DESIGN</h4>
+  				<p>Great design is about more than looking pretty. It’s about accurately conveying your brand’s message while offering your target audience an exceptional user experience. </p>
+  				
+  			</div>
+  			<div class="large-4 medium-4 columns center border-both">
+  				<img class="hidden" src="assets/images/camera.png"><br>
+  				&nbsp;
+  				<h4>PHOTOGRAPHY</h4>
+  				<p>Remember, anyone can snap a picture, but I create photographs that capture a memory in a creative way, a slice in time remembered.</p>
+  				
+  			</div>
+  		</div>
+  	</section>
 
-		    <!-- Left Nav Section -->
-		    <ul class="left">
-		      <li></li>
-		    </ul>
-		  </section>
-		</nav>
-			<div class="main-text">
-				<div class="main-text-holder">
-	        		<h4>Hello, I'm ZIM</h4>
-	        		<h5>Crafting visually stunning memorable experiences for web and interfaces.</h5>	
-				</div>
-	        </div>
-       	<main data-top="background-color: rgba(244,244,244,1)" data-center-bottom="background-color: rgba(244,244,244,1)" data--200p-top="background-color: rgba(0,0,0,1)" data-anchor-target="#slide-1">
-       	 
-	        <section id="slide-1" class="homeSlide">
-	        	<div class="bcg" data-top="opacity: 1; width: 300%; height: 300%; top: -130%; left: -100%;" data-center="opacity: 1; width: 100%; height: 100%; top: 0%; left: 0%;" data-anchor-target="#slide-1">
-		        </div>
-	    		<div class="plaxEl" data-0p-top="opacity: 0" data-center="opacity: 1;" data-100p-top="opacity: 1; position: fixed; top: 206px; width: 100%; left: 0;" data--25p-bottom="opacity: 0;" data--20p-bottom="opacity: 1;" data-anchor-target="#slide-1">
-		    		<!-- <h2>Zoom-in image effect<br />on page scroll</h2>
-					<p>Background image is being resized to 156% of it's original size and the top and left offset <br />increased to -28%.</p> -->
-	    		</div>
-		    </section>
+  	<section id="second-section" class="skills">
+  	  	<div class="center">
+  			<div class="row">
+  				<div class="large-12 columns">
+  					<h1 class="light-title">MY SKILLS</h1>
+  					<hr id="title_hr" class="color-green">
+  				</div>
+  			</div>
+  		</div>
+  		<br>
+  		<div class="row">
+  			<div class="large-2 medium-2 columns center">
+  				<div class="panel square wordpress-icon">
+  					<i class="fa fa-wordpress"></i>
+  					<p>Wordpress</p>
+  				</div>
+  			</div>
+  			<div class="large-2 medium-2 columns center">
+  				<div class="panel square html5-icon">
+  					<i class="fa fa-html5"></i>
+  					<p>HTML5</p>
+  				</div>
+  			</div>
+  			<div class="large-2 medium-2 columns center">
+  				<div class="panel square css3-icon">
+  					<i class="fa fa-css3"></i>
+  					<p>CSS3</p>
+  				</div>
+  			</div>
+  			<div class="large-2 medium-2 columns center">
+  				<div class="panel square php-icon">
+  					<i class="fa fa-code"></i>
+  					<p>PHP</p>
+  				</div>
+  			</div>
+  			<div class="large-2 medium-2 columns center">
+  				<div class="panel square js-icon">
+  					<i class="fa">Js</i>
+  					<p>Javscript</p>
+  				</div>
+  			</div>
+  			<div class="large-2 medium-2 columns center">
+  				<div class="panel square jq-icon">
+  					<i class="fa">jQ</i>
+  					<p>jQuery</p>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="row">
+  			<div class="large-2 medium-2 columns center">
+  				<div class="panel square seo-icon">
+  					<i class="fa fa-globe"></i>
+  					<p>SEO</p>
+  				</div>
+  			</div>
+  			<div class="large-2 medium-2 columns center">
+  				<div class="panel square ps-icon">
+  					<i class="fa">Ps</i>
+  					<p>Photoshop</p>
+  				</div>
+  			</div>
+  			<div class="large-2 medium-2 columns center">
+  				<div class="panel square ai-icon">
+  					<i class="fa">Ai</i>
+  					<p>Illustrator</p>
+  				</div>
+  			</div>
+  			<div class="large-2 medium-2 columns center">
+  				<div class="panel square pr-icon">
+  					<i class="fa">Pr</i>
+  					<p>Premiere PRO</p>
+  				</div>
+  			</div>
+  			<div class="large-2 medium-2 columns center">
+  				<div class="panel square ae-icon">
+  					<i class="fa">Ae</i>
+  					<p>After Effects</p>
+  				</div>
+  			</div>
+  			<div class="large-2 medium-2 columns center">
+  				<div class="panel square camera-icon">
+  					<i class="fa fa-camera"></i>
+  					<p>Photography</p>
+  				</div>
+  			</div>
+  		</div>
 
-		    <section id="slide-text-1">
-		    	<div class="text-section">
-		    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		    	</div>
-		    </section>
+  	</section>
 
-		    <section id="slide-2" class="homeSlide" data-bottom="opacity: 0;" data--10p-bottom="opacity: 1;" data-anchor-target="#slide-1">
-	        	<div class="bcg" data-top="opacity: 1; width: 100%; height: 100%; top: 0%; left: 0%;" data-40p-bottom="opacity: 0; width: 196%; height: 196%; top: -48%; left: -48%;" data-anchor-target="#slide-2">
-		        </div>
-	    		<div class="plaxEl" data-top="opacity: 0; position: fixed; top: 206px; width: 100%; left: 0;" data-center="opacity: 1;" data-10p-bottom="opacity: 1;" data-bottom="opacity: 0;" data-anchor-target="#slide-2">
-		    		<h2>Zoom-in image effect<br />on page scroll</h2>
-					<p>Similar to previous slide, this time we are resizing to 196% of the original size and top/left offset is going from 0 to -48%.</p>
-	    		</div>
-		    </section>
-		    
-		    <section id="slide-3" class="homeSlide" data-bottom-top="opacity: 0;" data-center="opacity: 1;" data-top="opacity: 1;" data-anchor-target="#slide-3">
-	        	<div class="bcg" data-top="opacity: 1; width: 120%; height: 120%; top: -10%; left: -10%;" data-center="opacity: 1; width: 110%; height: 110%; top: -5%; left: -5%;" data-bottom="opacity: 0; width: 100%; height: 100%; top: 0%; left: 0%;" data-anchor-target="#slide-3">
-		        </div>
-	    		<div class="plaxEl" data-top="opacity: 0; position: fixed; top: 206px; width: 100%; left: 0;" data-center="opacity: 0;" data-bottom="opacity: 1;" data-anchor-target="#slide-3">
-
-		    		<h2>Zoom-out image effect<br />on page scroll</h2>
-					<p>Reversed zoom-out effect gives you also quite interesting result.<br /><br /></p>
-					<p>Want to see more of these demos, tutorials and website deconstructions? Share the love please.</p>
-					
-					<div class="socialLinks">
-						<div class="fb-like" data-href="http://ihatetomatoes.net/how-to-zoom-into-an-image-on-scroll/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
-						<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-text="How to zoom into an image on scroll" data-url="http://ihatetomatoes.net/how-to-zoom-into-an-image-on-scroll/" data-via="ihatetomatoes" data-count="none" data-hashtags="html5,css3">Tweet</a>
-						<a href="https://twitter.com/ihatetomatoes" class="twitter-follow-button" data-show-count="false">Follow @ihatetomatoes</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  	 <section id="third-section" class="">
+  		<div class="row">
+			<div class="large-12 columns">
+				<div class="row">
+					<div id="service-1" class="large-3 columns services">
+						<i class="fa fa-wordpress"></i>
+						<div class="block-content">
+							<h5>Wordpress</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
 					</div>
+					<div id="service-2" class="large-3 columns services">
+						<i class="fa fa-html5"></i>
+						<div class="block-content">
+							<h5>HTML5</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+					<div id="service-3" class="large-3 columns services">
+						<i class="fa fa-css3"></i>
+						<div class="block-content">
+							<h5>CSS3</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+					<div id="service-4" class="large-3 columns services">
+						<i class="fa fa-code"></i>
+						<div class="block-content">
+							<h5>jQuery</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+				</div>
 
-	    		</div>
-		    </section>
-		    
-		</main>
+				<div class="row">
+					<div id="service-4" class="large-3 columns services">
+						<i class="fa fa-code"></i>
+						<div class="block-content">
+							<h5>Javascript</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+					<div id="service-5" class="large-3 columns services">
+						<i class="fa fa-code"></i>
+						<div class="block-content">
+							<h5>PHP</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+					<div id="service-6" class="large-3 columns services">
+						<i class="fa fa-database"></i>
+						<div class="block-content">
+							<h5>mySQL</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+					<div id="service-6" class="large-3 columns services">
+						<i class="fa">Ai</i>
+						<div class="block-content">
+							<h5>Illustrator</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+				</div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.js"><\/script>')</script>
-        <script src="assets/js/imagesloaded.js"></script>
-        <script src="assets/js/skrollr.js"></script>
-        <script src="assets/js/_main.js"></script>
-        <script src="assets/js/foundation.min.js"></script>
-	    <script>
-	      $(document).foundation();
-	    </script>
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
+				<div class="row">
+					<div id="service-7" class="large-3 columns services">
+						<i class="fa">Pr</i>
+						<div class="block-content">
+							<h5>Premiere PRO</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+					<div id="service-8" class="large-3 columns services">
+						<i class="fa">Ae</i>
+						<div class="block-content">
+							<h5>After Effects</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+					<div id="service-9" class="large-3 columns services">
+						<i class="fa fa-camera"></i>
+						<div class="block-content">
+							<h5>Photography</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+					<div id="service-9" class="large-3 columns services">
+						<i class="fa fa-camera"></i>
+						<div class="block-content">
+							<h5>Photography</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+  		</div>
+  	</section>
+
+  	<section id="fourth-section" class="full">
+  		<div class="row">
+  			<div class="large-12 columns center">
+  				<h1>PORTFOLIO</h1>
+  					<hr id="title_hr" class="color-green">
+  					<p>Below you can see some projects I've been working on lately. I divide each project into four follow-up areas:</p>
+  					<br>
+					  <a href="#" class="button small">Web Design</a>
+					  <a href="#" class="button small">Photography</a>
+					  <a href="#" class="button small">Branding</a>
+					  <a href="#" class="button small">Videos</a>
+					  <a href="#" class="button small">Wordpress</a>
+  			</div>
+  		</div>
+			<div class="row full">
+			  <div class="large-4 columns no-padding hidden">
+			  	<img src="http://lorempixel.com/800/480/">
+			  	<div class="hover-anchor">
+			  		<a class="icon-link" href="#"><i class="fa fa-external-link-square"></i></a>	
+			  	</div>
+			  </div>
+
+			  <div class="large-4 columns no-padding hidden">
+			  	<img src="http://lorempixel.com/800/480/">
+			  	<div class="hover-anchor">
+			  		<a class="icon-link" href="#"><i class="fa fa-external-link-square"></i></a>	
+			  	</div>
+			  </div>
+
+			  <div class="large-4 columns no-padding hidden">
+			  	<img src="http://lorempixel.com/800/480/">
+			  	<div class="hover-anchor">
+			  		<a class="icon-link" href="#"><i class="fa fa-external-link-square"></i></a>	
+			  	</div>
+			  </div>
+			  			  <div class="large-4 columns no-padding hidden">
+			  	<img src="http://lorempixel.com/800/480/">
+			  	<div class="hover-anchor">
+			  		<a class="icon-link" href="#"><i class="fa fa-external-link-square"></i></a>	
+			  	</div>
+			  </div>
+
+			  <div class="large-4 columns no-padding hidden">
+			  	<img src="http://lorempixel.com/800/480/">
+			  	<div class="hover-anchor">
+			  		<a class="icon-link" href="#"><i class="fa fa-external-link-square"></i></a>	
+			  	</div>
+			  </div>
+
+			  <div class="large-4 columns no-padding hidden">
+			  	<img src="http://lorempixel.com/800/480/">
+			  	<div class="hover-anchor">
+			  		<a class="icon-link" href="#"><i class="fa fa-external-link-square"></i></a>	
+			  	</div>
+			  </div>
+			</div>
+  	</section>
+
+	<section id="contact">
+		<div class="row">
+			<div class="large-12 columns center">
+				<h1>Let's Talk!</h1>
+				<p>Ready to take it a step further? 
+Let’s start talking about your project or idea and find out how Weblounge can help your business grow.</p>
+			</div>
+		</div>
+	</section>
+
+  <!-- MAIN CONTENT END -->
+
+    
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/foundation.min.js"></script>
+    <script src="assets/js/progressbar.js"></script>
+    <script src="assets/js/jquery.waypoints.js"></script>
+	<script src="assets/js/geometryangle.js"></script>
+	<script src="assets/js/jquery.stellar.js"></script>
+	<script src="assets/js/flattyshadow.js"></script>
+	<script src='assets/js/jquery.particleground.min.js'></script>
+    <script>
+    // Foundation 5
+      $(document).foundation();
+
+	// Skill Diagrams
+      window.onload = function onLoad() {
+
+		    $('#masthead').waypoint(function() {
+		    	$('.masthead-content img').addClass('animated zoomIn visible');
+		    	$('.masthead-content p, .masthead-content h1, .masthead-content a').addClass('animated zoomIn visible');
+			      }, {
+			         offset: '200',
+			         triggerOnce: false
+			    });
+
+
+		    $('#second-section').waypoint(function() {
+
+			      }, {
+			         offset: '500',
+			         triggerOnce: true
+			    });
+
+		    $('#third-section').waypoint(function() {
+			     $('#service-1, #service-2, #service-3, #service-4, #service-5, #service-6, #service-7, #service-8, #service-9').addClass('animated fadeInRight visible');  
+			      }, {
+			         offset: '30%',
+			         triggerOnce: true
+			    });
+
+		    $('#first-section').waypoint(function() {
+			     $('.about-me img').addClass('animated rotateIn visible');  
+			      }, {
+			         offset: '30%',
+			         triggerOnce: true
+			    });
+
+		    $('#fourth-section').waypoint(function() {
+			     $('.no-padding').addClass('animated zoomIn visible');  
+			      }, {
+			      	offset: '200'
+			      });
+
+		};
+
+		// Flatty Shadow
+		flattyShadow();	
+    </script>
+
+<!-- Animated Background -->
+    <script>
+		$(document).ready(function(){
+		  $('#masthead').Geometryangle({
+			  	mesh:{
+			  		  width: 1.2,
+					  height: 1.2,
+
+					  // How far should the mesh vary into z-space.
+					  depth: 10,
+
+					  // Number of columns for the mesh.
+					  columns: undefined,
+
+					  columns_auto: true,
+
+					  // Number of rows for the mesh.
+					  rows: undefined,
+
+					  rows_auto: true,
+					  zoom: 1,
+					  xRange: 0.8,
+					  yRange: 0.1,
+					  zRange: 1.0,
+					  ambient: 'rgba(48, 54, 66, 1)',
+					  diffuse: 'rgba(52, 58, 70, 1)',
+					  background: 'rgb(0, 0, 0)',
+					  speed: 0.0002,
+					  fluctuationSpeed: 0.5,
+					  fluctuationIntensity: 0,
+					  onRender: function () {
+					  },
+					  floorPosition: false,
+					  
+			  	},
+
+			  	lights: {
+			  		  // How many light sources belong to this light.
+					  count: 1,
+
+					  xyScalar: 1,
+
+					  // Position of light source.
+					  zOffset: 100,
+
+					  ambient: 'rgba(27,31,42, 1)',
+					  diffuse: 'rgba(153,153,153, 1)',
+					  speed: 0.010,
+					  gravity: 1200,
+
+					  // Dampening of light's movements.
+					  dampening: 0.95,
+
+					  minLimit: 10,
+					  maxLimit: null,
+					  minDistance: 20,
+					  maxDistance: 400,
+					  autopilot: false,
+					  draw: false, //show circle
+					  bounds: FSS.Vector3.create(),
+					  step: FSS.Vector3.create(
+					    Math.randomInRange(0.2, 1.0),
+					    Math.randomInRange(0.2, 1.0),
+					    Math.randomInRange(0.2, 1.0)
+					  ),
+					  draw: true
+			  	},
+
+			  	line: {
+		  			fill: "rgba(26, 30, 41, 1)",	
+		  			thickness: .1,
+		  			draw: true	
+
+			  	},
+
+			  	vertex: {
+			  		fill: "rgba(26, 30, 41, 1)",	
+		  			thickness: .1,
+		  			draw: true	
+			  	}
+		  	});
+		});
+	</script>
+
+  </body>
 </html>
