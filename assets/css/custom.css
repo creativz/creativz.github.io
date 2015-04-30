@@ -1,0 +1,725 @@
+/*nav.top-bar {
+	background: transparent;
+	z-index: 999;
+	position: fixed!important;
+	width: 100%;
+}
+
+nav.top-bar ul li, nav.top-bar ul li a {
+	background: transparent!important;
+}
+
+.main-text {
+  	display: block;
+  	position: fixed;
+  	width: 100%;
+  	z-index: 999;
+  	text-align: center;
+  	top: 38%;
+}
+
+.main-text h4 {
+	font-size: 90px;
+	font-family: "Roboto";
+	font-weight: 600;
+	color: white;
+	margin: 0;
+}
+
+.main-text h5 {
+	font-family: "Roboto Condensed";
+  	font-weight: 100;
+  	font-size: 40px;
+  	color: white;
+  	margin: 0!important;
+}
+
+#slide-text-1	{
+	min-height: 100%;
+}*/
+
+/*HOME HTML*/
+
+h1, h2, h3, h4, h5, p{
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+section {
+	padding: 40px 0;
+}
+
+.masthead-content {
+	top: 20%;
+	position: relative;
+	text-align: center;
+}
+
+.masthead-content img{
+	width: 40%;
+}
+
+.masthead-content h1, .masthead-content p {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.masthead-content h1 {
+	font-weight: 700;
+	font-size: 60px;
+	-vendor-animation-delay: .5s!important;
+    -webkit-animation-delay: .5s; /* Chrome, Safari, Opera */
+    animation-delay: .5s;
+}
+
+
+.masthead-content p {
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 3px;
+	color: #a1a1a1;
+	-vendor-animation-delay: .4s!important;
+    -webkit-animation-delay: .4s; /* Chrome, Safari, Opera */
+    animation-delay: .4s;
+}
+
+.masthead-content a{
+	font-size: 44px;
+	display: block;
+	margin: 0 auto;
+	color: white;
+	/*border: 2px solid white;*/
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	line-height: 58px;
+	-vendor-animation-delay: .7s!important;
+    -webkit-animation-delay: .7s; /* Chrome, Safari, Opera */
+    animation-delay: .7s;
+}
+
+.fss-output {
+	position: fixed!important;
+}
+
+#title_hr {
+  border-top: 3px solid #fff;
+  margin: 0.6em auto;
+  width: 50px;
+}
+
+.half {
+	height: 50%;
+}
+
+.light-title {
+	color: white;
+}
+
+.dark-title {
+	color: #222;
+}
+
+.full {
+	height: 100%;
+	width: 100%;
+	min-width: 100%;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.stroke-button {
+	border: 2px solid;
+	background: transparent;
+}
+
+.stroke-button:hover {
+	background: #2B313D;
+	color: white;
+}
+
+#first-section {
+	background: white;
+}
+
+#masthead {
+	/*background: url('/assets/images/masthead-bg.jpg');*/
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+}
+
+#second-section {
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+
+}
+
+#third-section {
+	background: white;
+}
+
+#fourth-section {
+	background: rgb(199, 209, 211);
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+
+}
+
+.center {
+	text-align: center;
+}
+
+.color-green {
+	color: #2B313D;
+	border-color: #2B313D!important;
+}
+
+.about-me .fa {
+	text-align: center;
+	font-size: 60px;
+	line-height: 60px;
+	-webkit-transition: font-size .5s; /* Safari */
+    transition: font-size .5s;
+}
+
+.skills {
+	padding: 80px 0 100px 0;
+}
+
+.skills p {
+	color: #2B313D;
+	font-weight: 200;
+	font-size: 20px;
+	font-family: 'Titillium Web', sans-serif;
+	margin-bottom: 0;
+}
+
+.border-both {
+	border-right: 1px solid #D8D8D8;
+	border-left: 1px solid #D8D8D8;
+}
+
+.block-content {
+	margin-left: 40px;
+}
+
+.block-content h5 {
+	font-size: 20px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 200;
+	margin: 0;
+}
+
+.block-content p {
+	font-size: 14px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#third-section {
+	padding: 100px 0;
+}
+
+.services, .hidden {
+	visibility: hidden;
+}
+
+.visible {
+	visibility: visible;
+}
+
+#service-2 {
+	-vendor-animation-delay: .1s!important;
+    -webkit-animation-delay: .1s; /* Chrome, Safari, Opera */
+    animation-delay: .1s;
+}
+
+#service-3 {
+	-vendor-animation-delay: .2s!important;
+    -webkit-animation-delay: .2s; /* Chrome, Safari, Opera */
+    animation-delay: .2s;
+}
+
+#service-4 {
+	-vendor-animation-delay: .3s!important;
+    -webkit-animation-delay: .3s; /* Chrome, Safari, Opera */
+    animation-delay: .3s;
+}
+
+#service-5 {
+	-vendor-animation-delay: .4s!important;
+    -webkit-animation-delay: .4s; /* Chrome, Safari, Opera */
+    animation-delay: .4s;
+}
+
+#service-6 {
+	-vendor-animation-delay: .5s!important;
+    -webkit-animation-delay: .5s; /* Chrome, Safari, Opera */
+    animation-delay: .5s;
+}
+
+#service-7 {
+	-vendor-animation-delay: .6s!important;
+    -webkit-animation-delay: .6s; /* Chrome, Safari, Opera */
+    animation-delay: .6s;
+}
+
+#service-8 {
+	-vendor-animation-delay: .7s!important;
+    -webkit-animation-delay: .7s; /* Chrome, Safari, Opera */
+    animation-delay: .7s;
+}
+
+#service-9 {
+	-vendor-animation-delay: .8s!important;
+    -webkit-animation-delay: .8s; /* Chrome, Safari, Opera */
+    animation-delay: .8s;
+}
+
+#skillTwo {
+	-vendor-animation-delay: .5s!important;
+    -webkit-animation-delay: .5s; /* Chrome, Safari, Opera */
+    animation-delay: .5s;
+}
+
+#skillThree {
+	-vendor-animation-delay: 1s!important;
+    -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+    animation-delay: 1s;
+}
+
+#skillFour {
+	-vendor-animation-delay: 1.5s!important;
+    -webkit-animation-delay: 1.5s; /* Chrome, Safari, Opera */
+    animation-delay: 1.5s;
+}
+
+.services i {
+	position: absolute;
+	top: 5px;
+	font-size: 26px;
+	color: #2B313D;
+}
+
+.left-title h1 {
+	font-weight: 200;
+	font-size: 30px;
+}
+
+#container img {
+	width: 100%;
+}
+
+/*.skills .fa {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 60px;
+	line-height: 150px;
+	background: white;
+}*/
+
+.about-me .fa:hover {
+	font-size: 80px;
+}
+
+.hover-anchor {
+	display: block;
+	position: absolute;
+	width: calc(100% - 20px);
+	height: calc(100% - 20px);
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	top: 0;
+	left: 0;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.49);
+	margin:10px;
+	opacity: 0;
+}
+
+a.icon-link {
+	color: white;
+	font-size: 65px;
+	top: calc(50% - 50px);
+	position: relative;
+}
+
+.hover-anchor:hover {
+	opacity: 1;
+}
+
+.hover-anchor:hover i{
+	-webkit-animation-name: slideInUp;
+	animation-name: slideInUp;
+
+}
+
+#map_canvas{width:100%;height:400px;}
+/*PROGRESS BAR*/
+
+            .skill-circle {
+                height: 100px;
+                background: transparent;
+            }
+
+            .skill-circle .fa {
+            	font-size: 30px;
+            }
+
+            .skill-circle > svg {
+                height: 100%;
+                width: 100%;
+                display: block;
+            }
+
+/*SQUARE ICONS*/
+
+.panel.square {
+	border: 0;
+}
+.panel.square .fa {
+  font-size: 46px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.panel.square p {
+  font-size: 12px;
+  text-transform: uppercase;
+  text-shadow: none!important;
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.panel.square.wordpress-icon, .panel.square.jq-icon  {
+	text-shadow: rgb(16, 148, 184) 1px 1px,
+    rgb(16, 148, 184) 2px 2px,
+    rgb(16, 148, 184) 3px 3px,
+    rgb(16, 148, 184) 4px 4px,
+    rgb(16, 148, 184) 5px 5px,
+    rgb(16, 148, 184) 6px 6px,
+    rgb(16, 148, 184) 7px 7px,
+    rgb(16, 148, 184) 8px 8px,
+    rgb(16, 148, 184) 9px 9px,
+    rgb(16, 148, 184) 10px 10px,
+    rgb(16, 148, 184) 11px 11px,
+    rgb(16, 148, 184) 12px 12px,
+    rgb(16, 149, 185) 13px 13px,
+    rgb(16, 149, 186) 14px 14px,
+    rgb(16, 150, 187) 15px 15px,
+    rgb(16, 151, 188) 16px 16px,
+    rgb(16, 151, 188) 17px 17px,
+    rgb(16, 152, 189) 18px 18px,
+    rgb(16, 153, 190) 19px 19px,
+    rgb(16, 153, 191) 20px 20px,
+    rgb(16, 154, 192) 21px 21px,
+    rgb(16, 155, 192) 22px 22px,
+    rgb(16, 155, 193) 23px 23px,
+    rgb(16, 156, 194) 24px 24px,
+    rgb(16, 157, 195) 25px 25px,
+    rgb(16, 157, 196) 26px 26px,
+    rgb(16, 158, 196) 27px 27px,
+    rgb(16, 159, 197) 28px 28px,
+    rgb(16, 159, 198) 29px 29px,
+    rgb(16, 160, 199) 30px 30px,
+    rgb(17, 161, 200) 31px 31px;
+   	background-color: rgb(17, 161, 200);
+	text-align: center;
+}
+
+.panel.square.html5-icon, .panel.square.js-icon  {
+	text-shadow: rgb(222, 93, 37) 1px 1px,
+    rgb(222, 93, 37) 2px 2px,
+    rgb(222, 93, 37) 3px 3px,
+    rgb(222, 93, 37) 4px 4px,
+    rgb(222, 93, 37) 5px 5px,
+    rgb(222, 93, 37) 6px 6px,
+    rgb(222, 93, 37) 7px 7px,
+    rgb(222, 93, 37) 8px 8px,
+    rgb(222, 93, 37) 9px 9px,
+    rgb(222, 93, 37) 10px 10px,
+    rgb(222, 93, 37) 11px 11px,
+    rgb(222, 93, 37) 12px 12px,
+    rgb(223, 93, 37) 13px 13px,
+    rgb(224, 94, 37) 14px 14px,
+    rgb(225, 94, 37) 15px 15px,
+    rgb(226, 95, 37) 16px 16px,
+    rgb(227, 95, 37) 17px 17px,
+    rgb(228, 95, 38) 18px 18px,
+    rgb(229, 96, 38) 19px 19px,
+    rgb(230, 96, 38) 20px 20px,
+    rgb(231, 97, 38) 21px 21px,
+    rgb(232, 97, 38) 22px 22px,
+    rgb(233, 97, 38) 23px 23px,
+    rgb(234, 98, 38) 24px 24px,
+    rgb(235, 98, 39) 25px 25px,
+    rgb(236, 99, 39) 26px 26px,
+    rgb(237, 99, 39) 27px 27px,
+    rgb(238, 99, 39) 28px 28px,
+    rgb(239, 100, 39) 29px 29px,
+    rgb(240, 100, 39) 30px 30px,
+    rgb(241, 101, 40) 31px 31px;
+   	background-color: rgb(241, 101, 40);
+}
+
+.panel.square.css3-icon, .panel.square.seo-icon {
+	text-shadow: rgb(36, 156, 208) 1px 1px,
+    rgb(36, 156, 208) 2px 2px,
+    rgb(36, 156, 208) 3px 3px,
+    rgb(36, 156, 208) 4px 4px,
+    rgb(36, 156, 208) 5px 5px,
+    rgb(36, 156, 208) 6px 6px,
+    rgb(36, 156, 208) 7px 7px,
+    rgb(36, 156, 208) 8px 8px,
+    rgb(36, 156, 208) 9px 9px,
+    rgb(36, 156, 208) 10px 10px,
+    rgb(36, 156, 208) 11px 11px,
+    rgb(36, 156, 208) 12px 12px,
+    rgb(36, 157, 209) 13px 13px,
+    rgb(36, 158, 210) 14px 14px,
+    rgb(36, 158, 211) 15px 15px,
+    rgb(36, 159, 212) 16px 16px,
+    rgb(36, 160, 213) 17px 17px,
+    rgb(37, 160, 214) 18px 18px,
+    rgb(37, 161, 215) 19px 19px,
+    rgb(37, 162, 216) 20px 20px,
+    rgb(37, 163, 217) 21px 21px,
+    rgb(37, 163, 217) 22px 22px,
+    rgb(37, 164, 218) 23px 23px,
+    rgb(37, 165, 219) 24px 24px,
+    rgb(38, 165, 220) 25px 25px,
+    rgb(38, 166, 221) 26px 26px,
+    rgb(38, 167, 222) 27px 27px,
+    rgb(38, 167, 223) 28px 28px,
+    rgb(38, 168, 224) 29px 29px,
+    rgb(38, 169, 225) 30px 30px,
+    rgb(39, 170, 226) 31px 31px;
+   	background-color: rgb(39, 170, 226);
+}
+
+.panel.square.php-icon {
+	text-shadow: rgb(88, 120, 172) 1px 1px,
+    rgb(88, 120, 172) 2px 2px,
+    rgb(88, 120, 172) 3px 3px,
+    rgb(88, 120, 172) 4px 4px,
+    rgb(88, 120, 172) 5px 5px,
+    rgb(88, 120, 172) 6px 6px,
+    rgb(88, 120, 172) 7px 7px,
+    rgb(88, 120, 172) 8px 8px,
+    rgb(88, 120, 172) 9px 9px,
+    rgb(88, 120, 172) 10px 10px,
+    rgb(88, 120, 172) 11px 11px,
+    rgb(88, 120, 172) 12px 12px,
+    rgb(88, 121, 173) 13px 13px,
+    rgb(89, 121, 174) 14px 14px,
+    rgb(89, 122, 175) 15px 15px,
+    rgb(90, 122, 175) 16px 16px,
+    rgb(90, 123, 176) 17px 17px,
+    rgb(90, 123, 177) 18px 18px,
+    rgb(91, 124, 178) 19px 19px,
+    rgb(91, 124, 178) 20px 20px,
+    rgb(92, 125, 179) 21px 21px,
+    rgb(92, 125, 180) 22px 22px,
+    rgb(92, 126, 181) 23px 23px,
+    rgb(93, 126, 181) 24px 24px,
+    rgb(93, 127, 182) 25px 25px,
+    rgb(94, 127, 183) 26px 26px,
+    rgb(94, 128, 184) 27px 27px,
+    rgb(94, 128, 184) 28px 28px,
+    rgb(95, 129, 185) 29px 29px,
+    rgb(95, 129, 186) 30px 30px,
+    rgb(96, 130, 187) 31px 31px;
+   	background-color: rgb(96, 130, 187);
+}
+
+.panel.square.ps-icon {
+	text-shadow: rgb(4, 61, 125) 1px 1px,
+    rgb(4, 61, 125) 2px 2px,
+    rgb(4, 61, 125) 3px 3px,
+    rgb(4, 61, 125) 4px 4px,
+    rgb(4, 61, 125) 5px 5px,
+    rgb(4, 61, 125) 6px 6px,
+    rgb(4, 61, 125) 7px 7px,
+    rgb(4, 61, 125) 8px 8px,
+    rgb(4, 61, 125) 9px 9px,
+    rgb(4, 61, 125) 10px 10px,
+    rgb(4, 61, 125) 11px 11px,
+    rgb(4, 61, 125) 12px 12px,
+    rgb(4, 61, 125) 13px 13px,
+    rgb(4, 61, 126) 14px 14px,
+    rgb(4, 62, 127) 15px 15px,
+    rgb(4, 62, 127) 16px 16px,
+    rgb(4, 62, 128) 17px 17px,
+    rgb(4, 63, 129) 18px 18px,
+    rgb(4, 63, 130) 19px 19px,
+    rgb(4, 63, 130) 20px 20px,
+    rgb(4, 64, 131) 21px 21px,
+    rgb(4, 64, 132) 22px 22px,
+    rgb(4, 65, 133) 23px 23px,
+    rgb(4, 65, 133) 24px 24px,
+    rgb(4, 65, 134) 25px 25px,
+    rgb(4, 66, 135) 26px 26px,
+    rgb(4, 66, 136) 27px 27px,
+    rgb(4, 66, 136) 28px 28px,
+    rgb(4, 67, 137) 29px 29px,
+    rgb(4, 67, 138) 30px 30px,
+    rgb(4, 68, 139) 31px 31px;
+   	background-color: rgb(4, 68, 139);
+}
+
+.panel.square.ai-icon {
+	text-shadow: rgb(189, 103, 33) 1px 1px,
+    rgb(189, 103, 33) 2px 2px,
+    rgb(189, 103, 33) 3px 3px,
+    rgb(189, 103, 33) 4px 4px,
+    rgb(189, 103, 33) 5px 5px,
+    rgb(189, 103, 33) 6px 6px,
+    rgb(189, 103, 33) 7px 7px,
+    rgb(189, 103, 33) 8px 8px,
+    rgb(189, 103, 33) 9px 9px,
+    rgb(189, 103, 33) 10px 10px,
+    rgb(189, 103, 33) 11px 11px,
+    rgb(189, 103, 33) 12px 12px,
+    rgb(190, 103, 33) 13px 13px,
+    rgb(191, 104, 33) 14px 14px,
+    rgb(192, 104, 33) 15px 15px,
+    rgb(193, 105, 33) 16px 16px,
+    rgb(194, 105, 34) 17px 17px,
+    rgb(195, 106, 34) 18px 18px,
+    rgb(196, 107, 34) 19px 19px,
+    rgb(197, 107, 34) 20px 20px,
+    rgb(198, 108, 34) 21px 21px,
+    rgb(200, 108, 35) 22px 22px,
+    rgb(201, 109, 35) 23px 23px,
+    rgb(202, 109, 35) 24px 24px,
+    rgb(203, 110, 35) 25px 25px,
+    rgb(204, 111, 35) 26px 26px,
+    rgb(205, 111, 36) 27px 27px,
+    rgb(206, 112, 36) 28px 28px,
+    rgb(207, 112, 36) 29px 29px,
+    rgb(208, 113, 36) 30px 30px,
+    rgb(210, 114, 37) 31px 31px;
+   	background-color: rgb(210, 114, 37);
+}
+
+.panel.square.pr-icon {
+	text-shadow: rgb(102, 74, 103) 1px 1px,
+    rgb(102, 74, 103) 2px 2px,
+    rgb(102, 74, 103) 3px 3px,
+    rgb(102, 74, 103) 4px 4px,
+    rgb(102, 74, 103) 5px 5px,
+    rgb(102, 74, 103) 6px 6px,
+    rgb(102, 74, 103) 7px 7px,
+    rgb(102, 74, 103) 8px 8px,
+    rgb(102, 74, 103) 9px 9px,
+    rgb(102, 74, 103) 10px 10px,
+    rgb(102, 74, 103) 11px 11px,
+    rgb(102, 74, 103) 12px 12px,
+    rgb(102, 74, 103) 13px 13px,
+    rgb(103, 74, 104) 14px 14px,
+    rgb(103, 75, 104) 15px 15px,
+    rgb(104, 75, 105) 16px 16px,
+    rgb(104, 76, 105) 17px 17px,
+    rgb(105, 76, 106) 18px 18px,
+    rgb(106, 76, 107) 19px 19px,
+    rgb(106, 77, 107) 20px 20px,
+    rgb(107, 77, 108) 21px 21px,
+    rgb(107, 78, 108) 22px 22px,
+    rgb(108, 78, 109) 23px 23px,
+    rgb(108, 79, 109) 24px 24px,
+    rgb(109, 79, 110) 25px 25px,
+    rgb(110, 79, 111) 26px 26px,
+    rgb(110, 80, 111) 27px 27px,
+    rgb(111, 80, 112) 28px 28px,
+    rgb(111, 81, 112) 29px 29px,
+    rgb(112, 81, 113) 30px 30px,
+    rgb(113, 82, 114) 31px 31px;
+   	background-color: rgb(113, 82, 114);
+}
+
+.panel.square.ae-icon {
+	text-shadow: rgb(79, 83, 109) 1px 1px,
+    rgb(79, 83, 109) 2px 2px,
+    rgb(79, 83, 109) 3px 3px,
+    rgb(79, 83, 109) 4px 4px,
+    rgb(79, 83, 109) 5px 5px,
+    rgb(79, 83, 109) 6px 6px,
+    rgb(79, 83, 109) 7px 7px,
+    rgb(79, 83, 109) 8px 8px,
+    rgb(79, 83, 109) 9px 9px,
+    rgb(79, 83, 109) 10px 10px,
+    rgb(79, 83, 109) 11px 11px,
+    rgb(79, 83, 109) 12px 12px,
+    rgb(79, 83, 109) 13px 13px,
+    rgb(79, 83, 110) 14px 14px,
+    rgb(80, 84, 110) 15px 15px,
+    rgb(80, 84, 111) 16px 16px,
+    rgb(81, 85, 112) 17px 17px,
+    rgb(81, 85, 112) 18px 18px,
+    rgb(82, 86, 113) 19px 19px,
+    rgb(82, 86, 114) 20px 20px,
+    rgb(83, 87, 114) 21px 21px,
+    rgb(83, 87, 115) 22px 22px,
+    rgb(84, 88, 115) 23px 23px,
+    rgb(84, 88, 116) 24px 24px,
+    rgb(85, 89, 117) 25px 25px,
+    rgb(85, 89, 117) 26px 26px,
+    rgb(86, 90, 118) 27px 27px,
+    rgb(86, 90, 119) 28px 28px,
+    rgb(87, 91, 119) 29px 29px,
+    rgb(87, 91, 120) 30px 30px,
+    rgb(88, 92, 121) 31px 31px;
+   	background-color: rgb(88, 92, 121);
+}
+
+.panel.square.camera-icon {
+	text-shadow: rgb(100, 100, 100) 1px 1px,
+    rgb(100, 100, 100) 2px 2px,
+    rgb(100, 100, 100) 3px 3px,
+    rgb(100, 100, 100) 4px 4px,
+    rgb(100, 100, 100) 5px 5px,
+    rgb(100, 100, 100) 6px 6px,
+    rgb(100, 100, 100) 7px 7px,
+    rgb(100, 100, 100) 8px 8px,
+    rgb(100, 100, 100) 9px 9px,
+    rgb(100, 100, 100) 10px 10px,
+    rgb(100, 100, 100) 11px 11px,
+    rgb(100, 100, 100) 12px 12px,
+    rgb(100, 100, 100) 13px 13px,
+    rgb(101, 101, 101) 14px 14px,
+    rgb(101, 101, 101) 15px 15px,
+    rgb(102, 102, 102) 16px 16px,
+    rgb(102, 102, 102) 17px 17px,
+    rgb(103, 103, 103) 18px 18px,
+    rgb(104, 104, 104) 19px 19px,
+    rgb(104, 104, 104) 20px 20px,
+    rgb(105, 105, 105) 21px 21px,
+    rgb(105, 105, 105) 22px 22px,
+    rgb(106, 106, 106) 23px 23px,
+    rgb(106, 106, 106) 24px 24px,
+    rgb(107, 107, 107) 25px 25px,
+    rgb(108, 108, 108) 26px 26px,
+    rgb(108, 108, 108) 27px 27px,
+    rgb(109, 109, 109) 28px 28px,
+    rgb(109, 109, 109) 29px 29px,
+    rgb(110, 110, 110) 30px 30px,
+    rgb(111, 111, 111) 31px 31px;
+   	background-color: rgb(111, 111, 111);
+}
+
