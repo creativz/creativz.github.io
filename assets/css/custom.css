@@ -743,6 +743,10 @@ a.icon-link {
         .masthead-content img{
             width: 60%;
         }
+        
+        .large-2.medium-2.columns.center {
+		width: 50%;
+	}
 
     } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
