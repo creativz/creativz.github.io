@@ -38,7 +38,7 @@ nav.top-bar ul li, nav.top-bar ul li a {
 	min-height: 100%;
 }*/
 
-/*HOME HTML*/
+/* HOME HTML */
 
 h1, h2, h3, h4, h5, p{
 	font-family: 'Montserrat', sans-serif;
@@ -59,7 +59,7 @@ section {
 }
 
 .masthead-content img{
-	width: 40%;
+	width: 30%;
 }
 
 .masthead-content h1, .masthead-content p {
@@ -70,7 +70,7 @@ section {
 
 .masthead-content h1 {
 	font-weight: 700;
-	font-size: 60px;
+	font-size: 50px;
 	-vendor-animation-delay: .5s!important;
     -webkit-animation-delay: .5s; /* Chrome, Safari, Opera */
     animation-delay: .5s;
@@ -79,7 +79,7 @@ section {
 
 .masthead-content p {
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 14px;
 	letter-spacing: 3px;
 	color: #a1a1a1;
 	-vendor-animation-delay: .4s!important;
@@ -723,3 +723,52 @@ a.icon-link {
    	background-color: rgb(111, 111, 111);
 }
 
+/* MEDIA QUERIES */
+
+/*// Small screens*/
+@media only screen { } /* Define mobile styles */
+
+@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+/*// Medium screens*/
+@media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+/*// Large screens*/
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+/*// XLarge screens*/
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+
+        .masthead-content h1 {
+            font-weight: 700;
+            font-size: 60px;
+            -vendor-animation-delay: .5s!important;
+            -webkit-animation-delay: .5s; /* Chrome, Safari, Opera */
+            animation-delay: .5s;
+        }
+
+
+        .masthead-content p {
+            font-weight: 400;
+            font-size: 18px;
+            letter-spacing: 3px;
+            color: #a1a1a1;
+            -vendor-animation-delay: .4s!important;
+            -webkit-animation-delay: .4s; /* Chrome, Safari, Opera */
+            animation-delay: .4s;
+        }
+
+        .masthead-content img{
+            width: 40%;
+        }
+
+    } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+/*// XXLarge screens*/
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */
