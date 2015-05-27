@@ -108,7 +108,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem; }
+  max-width: 78rem; }
   .row:before, .row:after {
     content: " ";
     display: table; }
@@ -1395,7 +1395,7 @@ span.postfix, label.postfix {
   border-color: #cccccc; }
 
 /* We use this to get basic styling on all basic form elements */
-input[type="text"],
+/*input[type="text"],
 input[type="password"],
 input[type="date"],
 input[type="datetime"],
@@ -1602,18 +1602,18 @@ form .row .postfix-round.row.collapse .postfix {
 
 input[type="submit"] {
   -webkit-appearance: none;
-  -webkit-border-radius: 0px; }
+  -webkit-border-radius: 0px; } */
 
 /* Respect enforced amount of rows for textarea */
-textarea[rows] {
-  height: auto; }
+/*textarea[rows] {
+  height: auto; }*/
 
 /* Not allow resize out of parent */
-textarea {
-  max-width: 100%; }
+/*textarea {
+  max-width: 100%; }*/
 
 /* Add height value for select elements to match text input height */
-select {
+/*select {
   -webkit-appearance: none !important;
   -webkit-border-radius: 0px;
   background-color: #fafafa;
@@ -1639,7 +1639,7 @@ select {
     border-color: #999999; }
   select:disabled {
     background-color: #dddddd;
-    cursor: default; }
+    cursor: default; }*/
 
 /* Adjust margin for form elements below */
 input[type="file"],
