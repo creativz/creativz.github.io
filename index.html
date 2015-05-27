@@ -3,19 +3,36 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zim Arcilla | Web Developer</title>
+    <title>Zim Arcilla | Web Developer + Web Designer + Photographer</title>
     <link rel="stylesheet" href="assets/css/foundation.css" />
     <link rel="stylesheet" href="assets/css/custom.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/flattyshadow.css" />
+    <link rel="stylesheet" href="assets/css/menu.css" />
+    <link rel="stylesheet" href="assets/css/form.css" />
+    <link rel="stylesheet" href="assets/css/overlay-menu.css" />
     <script src="assets/js/vendor/modernizr.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700,900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   </head>
-  <body>
-  <!-- NAV TOP BAR -->
+  <body id="to-top">
+  <!-- FACEBOOK SHARE -->
+  <div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=205390436166339";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
+  <!-- NAV TOP BAR -->
+	<div class="fixed top-menu">
+		
+				<a id="trigger-overlay" class="nav-toggle hidden" type="button"><span></span></a>
+
+	</div>
   <!-- NAV TOP BAR -->
 
   <!-- MASTHEAD -->
@@ -23,10 +40,19 @@
   		<div class="masthead-content">
   			<div class="row">
   				<div class="large-12 large-centered columns">
-  					<img class="hidden" src="assets/images/myphoto.png">
+  					<!-- <img class="hidden" src="assets/images/zimarcilla.png"> -->
+					<div class="circle-img">
+						<div class="ch-item ch-img-1 hidden">
+							<div class="ch-info">
+								<a href="https://www.facebook.com/sharer/sharer.php?u=www.zimarcilla.com" target="_blank" class=""><i class="fa fa-share-alt"></i></a>
+								<a target="_blank" href="/my-resume.html"><i class="fa fa-file-text-o"></i></a>
+								<a href="#contact" class=""><i class="fa fa-envelope"></i></a>
+							</div>
+						</div>
+					</div>
   					<h1 class="hidden">ZIM<span style="color:#a1a1a1;">ARCILLA</span></h1>	
   					<p class="hidden">WEB DEVELOPER + WEB DESIGNER + PHOTOGRAPHER</p>
-  					<a class="hidden" href="#first-section"><i class="fa animated fadeInDown infinite fa-angle-down"></i></a>
+  					<a class="hidden banner-link" href="#first-section"><i class="fa animated fadeInDown infinite fa-angle-down"></i></a>
   				</div>
   				</div>
   			</div>
@@ -42,8 +68,8 @@
   			<div class="row">
   				<div class="large-12 columns">
   					<h1 class="dark-title">WHAT I DO</h1>
-  					<hr id="title_hr" class="color-green">
-  					<p>I'm web designer & web developer with 3 years of professional experience. I'm interested in all kinds of multimedia, but my major focus is on designing & developing web. I have a passion for minimalist & flat design and a lover of all things creative.</p>	
+  					<hr id="title_hr" class="dark-hr">
+  					<p>I'm web designer & web developer with 3 years of professional experience. I'm interested in all kinds of multimedia, but my major focus is on designing & developing web. I have a passion for minimalist & flat design, an admiration for photography and a lover of all things creative.</p>
   				</div>
   			</div>
   		</div>
@@ -73,49 +99,49 @@
   		</div>
   	</section>
 
-  	<section id="second-section" class="skills">
+  	<section id="second-section" data-stellar-background-ratio=".6" data-stellar-vertical-offset="450" class="skills">
   	  	<div class="center">
   			<div class="row">
   				<div class="large-12 columns">
   					<h1 class="light-title">MY SKILLS</h1>
-  					<hr id="title_hr" class="color-green">
+  					<hr id="title_hr" class="light-hr">
   				</div>
   			</div>
   		</div>
   		<br>
   		<div class="row">
   			<div class="large-2 medium-2 columns center">
-  				<div class="panel square wordpress-icon">
+  				<div class="panel square hidden wordpress-icon">
   					<i class="fa fa-wordpress"></i>
   					<p>Wordpress</p>
   				</div>
   			</div>
   			<div class="large-2 medium-2 columns center">
-  				<div class="panel square html5-icon">
+  				<div class="panel square hidden html5-icon">
   					<i class="fa fa-html5"></i>
   					<p>HTML5</p>
   				</div>
   			</div>
   			<div class="large-2 medium-2 columns center">
-  				<div class="panel square css3-icon">
+  				<div class="panel square hidden css3-icon">
   					<i class="fa fa-css3"></i>
   					<p>CSS3</p>
   				</div>
   			</div>
   			<div class="large-2 medium-2 columns center">
-  				<div class="panel square php-icon">
+  				<div class="panel square hidden php-icon">
   					<i class="fa fa-code"></i>
   					<p>PHP</p>
   				</div>
   			</div>
   			<div class="large-2 medium-2 columns center">
-  				<div class="panel square js-icon">
+  				<div class="panel square hidden js-icon">
   					<i class="fa">Js</i>
   					<p>Javscript</p>
   				</div>
   			</div>
   			<div class="large-2 medium-2 columns center">
-  				<div class="panel square jq-icon">
+  				<div class="panel square hidden jq-icon">
   					<i class="fa">jQ</i>
   					<p>jQuery</p>
   				</div>
@@ -123,37 +149,37 @@
   		</div>
   		<div class="row">
   			<div class="large-2 medium-2 columns center">
-  				<div class="panel square seo-icon">
+  				<div class="panel square hidden seo-icon">
   					<i class="fa fa-globe"></i>
   					<p>SEO</p>
   				</div>
   			</div>
   			<div class="large-2 medium-2 columns center">
-  				<div class="panel square ps-icon">
+  				<div class="panel square hidden ps-icon">
   					<i class="fa">Ps</i>
   					<p>Photoshop</p>
   				</div>
   			</div>
   			<div class="large-2 medium-2 columns center">
-  				<div class="panel square ai-icon">
+  				<div class="panel square hidden ai-icon">
   					<i class="fa">Ai</i>
   					<p>Illustrator</p>
   				</div>
   			</div>
   			<div class="large-2 medium-2 columns center">
-  				<div class="panel square pr-icon">
+  				<div class="panel square hidden pr-icon">
   					<i class="fa">Pr</i>
   					<p>Premiere PRO</p>
   				</div>
   			</div>
   			<div class="large-2 medium-2 columns center">
-  				<div class="panel square ae-icon">
+  				<div class="panel square hidden ae-icon">
   					<i class="fa">Ae</i>
   					<p>After Effects</p>
   				</div>
   			</div>
   			<div class="large-2 medium-2 columns center">
-  				<div class="panel square camera-icon">
+  				<div class="panel square hidden camera-icon">
   					<i class="fa fa-camera"></i>
   					<p>Photography</p>
   				</div>
@@ -162,175 +188,240 @@
 
   	</section>
 
-  	 <section id="third-section" class="">
-  		<div class="row">
-			<div class="large-12 columns">
-				<div class="row">
-					<div id="service-1" class="large-3 columns services">
-						<i class="fa fa-wordpress"></i>
-						<div class="block-content">
-							<h5>Wordpress</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						</div>
-					</div>
-					<div id="service-2" class="large-3 columns services">
-						<i class="fa fa-html5"></i>
-						<div class="block-content">
-							<h5>HTML5</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						</div>
-					</div>
-					<div id="service-3" class="large-3 columns services">
-						<i class="fa fa-css3"></i>
-						<div class="block-content">
-							<h5>CSS3</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						</div>
-					</div>
-					<div id="service-4" class="large-3 columns services">
-						<i class="fa fa-code"></i>
-						<div class="block-content">
-							<h5>jQuery</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="row">
-					<div id="service-4" class="large-3 columns services">
-						<i class="fa fa-code"></i>
-						<div class="block-content">
-							<h5>Javascript</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						</div>
-					</div>
-					<div id="service-5" class="large-3 columns services">
-						<i class="fa fa-code"></i>
-						<div class="block-content">
-							<h5>PHP</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						</div>
-					</div>
-					<div id="service-6" class="large-3 columns services">
-						<i class="fa fa-database"></i>
-						<div class="block-content">
-							<h5>mySQL</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						</div>
-					</div>
-					<div id="service-6" class="large-3 columns services">
-						<i class="fa">Ai</i>
-						<div class="block-content">
-							<h5>Illustrator</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="row">
-					<div id="service-7" class="large-3 columns services">
-						<i class="fa">Pr</i>
-						<div class="block-content">
-							<h5>Premiere PRO</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						</div>
-					</div>
-					<div id="service-8" class="large-3 columns services">
-						<i class="fa">Ae</i>
-						<div class="block-content">
-							<h5>After Effects</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						</div>
-					</div>
-					<div id="service-9" class="large-3 columns services">
-						<i class="fa fa-camera"></i>
-						<div class="block-content">
-							<h5>Photography</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						</div>
-					</div>
-					<div id="service-9" class="large-3 columns services">
-						<i class="fa fa-camera"></i>
-						<div class="block-content">
-							<h5>Photography</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-  		</div>
-  	</section>
-
-  	<section id="fourth-section" class="full">
+  	<section id="third-section" class="full">
   		<div class="row">
   			<div class="large-12 columns center">
-  				<h1>PORTFOLIO</h1>
-  					<hr id="title_hr" class="color-green">
-  					<p>Below you can see some projects I've been working on lately. I divide each project into four follow-up areas:</p>
+  				<h1 class="dark-title">PORTFOLIO</h1>
+  					<hr id="title_hr" class="dark-hr">
+  					<p>Below you can see some projects I've been working on lately.</p>
   					<br>
+					 <!--  <a href="#" class="button small">All</a>
 					  <a href="#" class="button small">Web Design</a>
-					  <a href="#" class="button small">Photography</a>
+					  <a href="#" class="button small">Web Development</a>
 					  <a href="#" class="button small">Branding</a>
-					  <a href="#" class="button small">Videos</a>
-					  <a href="#" class="button small">Wordpress</a>
+					  <a href="#" class="button small">Photography</a> -->
   			</div>
   		</div>
-			<div class="row full">
-			  <div class="large-4 columns no-padding hidden">
-			  	<img src="http://lorempixel.com/800/480/">
-			  	<div class="hover-anchor">
-			  		<a class="icon-link" href="#"><i class="fa fa-external-link-square"></i></a>	
+			<div class="row full portfolio">
+			  <div class="large-3 columns no-padding hidden portfolio-bg-1">
+			  	<div class="portfolio-wrapper">
+			  			<img src="assets/images/kemji-thumb.jpg">
+			  		<div class="portfolio-details">
+			  			<h4>KEMJI <span>RESORT & RESTAURANT</span></h4>
+			  			<div class="categories">
+			  				<p>Web Design<br>Web Development<br>Responsive</p>
+			  			</div>
+			  			<div class="info-link">
+							<a href="http://kemjiresortandrestaurant.com/" target="_blank"><i class="fa fa-eye"></i></a>
+			  			</div>
+			  		</div>
 			  	</div>
 			  </div>
 
-			  <div class="large-4 columns no-padding hidden">
-			  	<img src="http://lorempixel.com/800/480/">
-			  	<div class="hover-anchor">
-			  		<a class="icon-link" href="#"><i class="fa fa-external-link-square"></i></a>	
+			  <div class="large-3 columns no-padding hidden portfolio-bg-2">
+			  	<div class="portfolio-wrapper">
+			  			<img src="assets/images/franklopez-thumb.jpg">
+			  		<div class="portfolio-details">
+			  			<h4>Frank Lopez <span>Gallery</span></h4>
+			  			<div class="categories">
+			  				<p>Web Design<br>Web Development<br>Responsive</p>
+			  			</div>
+			  			<div class="info-link">
+							<a href="http://franklopezgallery.com/" target="_blank"><i class="fa fa-eye"></i></a>
+			  			</div>
+			  		</div>
 			  	</div>
 			  </div>
 
-			  <div class="large-4 columns no-padding hidden">
-			  	<img src="http://lorempixel.com/800/480/">
-			  	<div class="hover-anchor">
-			  		<a class="icon-link" href="#"><i class="fa fa-external-link-square"></i></a>	
-			  	</div>
-			  </div>
-			  			  <div class="large-4 columns no-padding hidden">
-			  	<img src="http://lorempixel.com/800/480/">
-			  	<div class="hover-anchor">
-			  		<a class="icon-link" href="#"><i class="fa fa-external-link-square"></i></a>	
-			  	</div>
-			  </div>
-
-			  <div class="large-4 columns no-padding hidden">
-			  	<img src="http://lorempixel.com/800/480/">
-			  	<div class="hover-anchor">
-			  		<a class="icon-link" href="#"><i class="fa fa-external-link-square"></i></a>	
+			  <div class="large-3 columns no-padding hidden portfolio-bg-3">
+			  	<div class="portfolio-wrapper">
+			  			<img src="assets/images/twinrock-icon.jpg">
+			  		<div class="portfolio-details">
+			  			<h4>TWIN ROCK <span>BEACH RESORT</span></h4>
+			  			<div class="categories">
+			  				<p>Web Design<br>Web Development<br>Responsive</p>
+			  			</div>
+			  			<div class="info-link">
+							<a href="http://www.twinrock.com.ph/" target="_blank"><i class="fa fa-eye"></i></a>
+			  			</div>
+			  		</div>
 			  	</div>
 			  </div>
 
-			  <div class="large-4 columns no-padding hidden">
-			  	<img src="http://lorempixel.com/800/480/">
-			  	<div class="hover-anchor">
-			  		<a class="icon-link" href="#"><i class="fa fa-external-link-square"></i></a>	
+			  <div class="large-3 columns no-padding hidden portfolio-bg-4">
+			  	<div class="portfolio-wrapper">
+			  			<img src="assets/images/racluv-thumb.jpg">
+			  		<div class="portfolio-details">
+			  			<h4>RAC A LUV <span>CONCERT</span></h4>
+			  			<div class="categories">
+			  				<p>Web Design<br>Web Development<br>Responsive</p>
+			  			</div>
+			  			<div class="info-link">
+							<a href="http://rotaract-virac.org/" target="_blank"><i class="fa fa-eye"></i></a>
+			  			</div>
+			  		</div>
+			  	</div>
+			  </div>
+
+			  <div class="large-3 columns no-padding hidden portfolio-bg-5">
+			  	<div class="portfolio-wrapper">
+			  			<img src="assets/images/kawaii-thumbs.jpg">
+			  		<div class="portfolio-details">
+			  			<h4>KAWAII <span>BABIES</span></h4>
+			  			<div class="categories">
+			  				<p>Web Development</p>
+			  			</div>
+			  			<div class="info-link">
+							<a href="http://kawaiibabies.com/" target="_blank"><i class="fa fa-eye"></i></a>
+			  			</div>
+			  		</div>
+			  	</div>
+			  </div>
+
+			  <div class="large-3 columns no-padding hidden portfolio-bg-6">
+			  	<div class="portfolio-wrapper">
+			  			<img src="assets/images/video-editing.jpg">
+			  		<div class="portfolio-details">
+			  			<h4>JIREH LIM <span>CONCERT</span></h4>
+			  			<div class="categories">
+			  				<p>Video Editing<br>Video Presentation</p>
+			  			</div>
+			  			<div class="info-link">
+							<a href="https://youtu.be/F_vAgdbI_UU" target="_blank"><i class="fa fa-eye"></i></a>
+			  			</div>
+			  		</div>
+			  	</div>
+			  </div>
+			  
+			  <div class="large-3 columns no-padding hidden portfolio-bg-7">
+			  	<div class="portfolio-wrapper">
+			  			<img src="assets/images/animation.jpg">
+			  		<div class="portfolio-details">
+			  			<h4>GOOFYFOOT <span>MEDIA</span></h4>
+			  			<div class="categories">
+			  				<p>Animation<br>Opening Billboard</p>
+			  			</div>
+			  			<div class="info-link">
+							<a href="https://youtu.be/eXhZTSTr5Hg" target="_blank"><i class="fa fa-eye"></i></a>
+			  			</div>
+			  		</div>
+			  	</div>
+			  </div>
+
+			  <div class="large-3 columns no-padding hidden portfolio-bg-8">
+			  	<div class="portfolio-wrapper">
+			  			<img src="assets/images/video-editing.jpg">
+			  		<div class="portfolio-details">
+			  			<h4>SILENT SANCTUARY <span>TEASER</span></h4>
+			  			<div class="categories">
+			  				<p>Video Editing<br>Video Teaser</p>
+			  			</div>
+			  			<div class="info-link">
+							<a href="https://youtu.be/Ya5CxRLQ1OY" target="_blank"><i class="fa fa-eye"></i></a>
+			  			</div>
+			  		</div>
 			  	</div>
 			  </div>
 			</div>
   	</section>
-
-	<section id="contact">
+	
+	<section id="contact" data-stellar-background-ratio=".6" data-stellar-vertical-offset="20">
 		<div class="row">
 			<div class="large-12 columns center">
-				<h1>Let's Talk!</h1>
-				<p>Ready to take it a step further? 
-Let’s start talking about your project or idea and find out how Weblounge can help your business grow.</p>
+				<h1 class="light-title">LET'S TALK!</h1>
+				<hr id="title_hr" class="light-hr">
+				<p>Ready to take it a step further?<br>Let’s start talking about your project or idea and find out how I can help your business grow.</p>
 			</div>
-		</div>
+				<div class="contact-form row">
+					<div class="large-8 columns">
+						<div class="large-12 field-input columns">
+							<span class="input input--chisato">
+								<input class="input__field input__field--chisato" type="text" id="input-13" />
+								<label class="input__label input__label--chisato" for="input-13">
+									<span class="input__label-content input__label-content--chisato" data-content="Name">Name</span>
+								</label>
+							</span>
+						</div>
+						<div class="large-12 field-input columns">
+							<span class="input input--chisato">
+								<input class="input__field input__field--chisato" type="text" id="input-14" />
+								<label class="input__label input__label--chisato" for="input-14">
+									<span class="input__label-content input__label-content--chisato" data-content="Email">Email</span>
+								</label>
+							</span>
+						</div>
+						<div class="large-12 field-input columns">
+							<span class="input input--chisato">
+								<textarea class="input__field input__field--chisato" type="text" id="input-15"></textarea>
+								<label class="input__label input__label--chisato" for="input-15">
+									<span class="input__label-content input__label-content--chisato" data-content="Message">Message</span>
+								</label>
+							</span>
+						</div>
+						<div class="large-12 field-input columns">
+							<button class="button large">SUBMIT</button>
+						</div>
+					</div>
+
+					<div class="large-4 columns contact-info">
+						<h4 class="light-title">CONTACT INFO</h4>
+						<ul>
+							<li><a href="#"><i class="fa fa-envelope"></i> zimarcilla@gmail.com</a></li>
+							<li><a href="#"><i class="fa fa-phone"> </i> +63 916 433 4439</a></li>
+							<li><a href="#"><i class="fa fa-location-arrow"></i> Las Piñas, Metro Manila, PH</a></li>
+						</ul>
+						<h4 class="light-title">SOCIAL MEDIA</h4>
+						<div class="social-icons">
+							<a target="_blank" href="https://www.facebook.com/zimarcilla"><i class="fa fa-facebook"></i></a>
+							<a target="_blank" href="https://twitter.com/creativzim"><i class="fa fa-twitter"></i></a>
+							<a target="_blank" href="http://ph.linkedin.com/in/zimarcilla"><i class="fa fa-linkedin"></i></a>
+							<a target="_blank" href="https://www.youtube.com/user/cr38tivzim"><i class="fa fa-youtube"></i></a>
+							<a target="_blank" href="https://instagram.com/creativzim"><i class="fa fa-instagram"></i></a>
+						</div>
+					</div>
+				</div>
 	</section>
 
-  <!-- MAIN CONTENT END -->
+<!-- OVERLAY MENU -->
+		<div class="overlay overlay-hugeinc">
+			<button type="button" class="overlay-close">Close</button>
+			<div class="row" style="margin-top:30vh;">
+				<div class="large-3 small-3 medium-3 columns hidden overlay-link">
+					<a class="menuclick" href="#first-section">
+						<i class="fa fa-magic"></i>
+						<p>WHAT I DO</p>	
+					</a>
+				</div>
+				<div class="large-3 small-3 medium-3 columns hidden overlay-link">
+					<a class="menuclick" href="#second-section">
+						<i class="fa fa-lightbulb-o"></i>
+						<p>MY SKILLS</p>	
+					</a>
+				</div>
+				<div class="large-3 small-3 medium-3 columns hidden overlay-link">
+					<a class="menuclick" href="#third-section">
+						<i class="fa fa-briefcase"></i>
+						<p>PORTFOLIO</p>	
+					</a>
+				</div>
+				<div class="large-3 small-3 medium-3 columns hidden overlay-link">
+					<a class="menuclick" href="#contact">
+						<i class="fa fa-coffee"></i>
+						<p>LET'S TALK</p>	
+					</a>
+				</div>
+			</div>
+		</div>
+<!-- END OF OVERLAY MENU -->
 
+<!-- MAIN CONTENT END -->
+	<footer>
+		<div class="row">
+				 <div class="large-8 large-centered center columns copyright">
+				 	<p><strong>ZIM<span style="color:gray;">ARCILLA</span></strong> - Copyright 2015 © All Rights Reserved</p>
+				 </div>
+		</div>
+	</footer>
     
     <script src="assets/js/vendor/jquery.js"></script>
     <script src="assets/js/foundation.min.js"></script>
@@ -338,8 +429,10 @@ Let’s start talking about your project or idea and find out how Weblounge can 
     <script src="assets/js/jquery.waypoints.js"></script>
 	<script src="assets/js/geometryangle.js"></script>
 	<script src="assets/js/jquery.stellar.js"></script>
-	<script src="assets/js/flattyshadow.js"></script>
+	
 	<script src='assets/js/jquery.particleground.min.js'></script>
+	<script src='assets/js/classie.js'></script>
+	<script src='assets/js/overlay-menu.js'></script>
     <script>
     // Foundation 5
       $(document).foundation();
@@ -348,7 +441,7 @@ Let’s start talking about your project or idea and find out how Weblounge can 
       window.onload = function onLoad() {
 
 		    $('#masthead').waypoint(function() {
-		    	$('.masthead-content img').addClass('animated zoomIn visible');
+		    	$('.masthead-content .ch-item').addClass('animated zoomIn visible');
 		    	$('.masthead-content p, .masthead-content h1, .masthead-content a').addClass('animated zoomIn visible');
 			      }, {
 			         offset: '200',
@@ -357,36 +450,51 @@ Let’s start talking about your project or idea and find out how Weblounge can 
 
 
 		    $('#second-section').waypoint(function() {
-
-			      }, {
-			         offset: '500',
-			         triggerOnce: true
-			    });
-
-		    $('#third-section').waypoint(function() {
-			     $('#service-1, #service-2, #service-3, #service-4, #service-5, #service-6, #service-7, #service-8, #service-9').addClass('animated fadeInRight visible');  
+				$('.wordpress-icon, .html5-icon, .css3-icon, .php-icon, .js-icon, .jq-icon, .seo-icon, .ps-icon, .ai-icon, .pr-icon, .ae-icon, .camera-icon').addClass('animated fadeInRight visible'); 
 			      }, {
 			         offset: '30%',
 			         triggerOnce: true
 			    });
 
 		    $('#first-section').waypoint(function() {
-			     $('.about-me img').addClass('animated rotateIn visible');  
+			     $('.about-me img').addClass('animated rotateIn visible');
 			      }, {
 			         offset: '30%',
 			         triggerOnce: true
 			    });
 
-		    $('#fourth-section').waypoint(function() {
+		    $('#first-section').waypoint(function() {
+				  $('.top-menu .nav-toggle').toggleClass('animated slideInDown visible');
+			      }, {
+			         offset: '30%',
+			         triggerOnce: false
+			    });
+
+		    $('#third-section').waypoint(function() {
 			     $('.no-padding').addClass('animated zoomIn visible');  
 			      }, {
 			      	offset: '200'
 			      });
 
+			$(".square").hover(function(event) {
+			    $(".square:hover .fa").toggleClass("animated zoomIn");
+			});
+
+			$(".masthead-content a").hover(function(event) {
+			    $(".masthead-content .fa").toggleClass("infinite");
+			});
+
+			$(".nav-toggle").click(function() {
+				$(".overlay-link").toggleClass("animated slideInDown visible");
+				$(".overlay-link").removeClass("hidden");
+				});
+
 		};
 
-		// Flatty Shadow
-		flattyShadow();	
+		//Parallax 
+
+		$(window).stellar();
+
     </script>
 
 <!-- Animated Background -->
@@ -472,20 +580,55 @@ Let’s start talking about your project or idea and find out how Weblounge can 
 		  	});
 		});
 	</script>
+			<script>
+				(function() {
+					// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+					if (!String.prototype.trim) {
+						(function() {
+							// Make sure we trim BOM and NBSP
+							var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+							String.prototype.trim = function() {
+								return this.replace(rtrim, '');
+							};
+						})();
+					}
+
+					[].slice.call( document.querySelectorAll( 'input.input__field, textarea.input__field' ) ).forEach( function( inputEl ) {
+						// in case the input is already filled..
+						if( inputEl.value.trim() !== '' ) {
+							classie.add( inputEl.parentNode, 'input--filled' );
+						}
+
+						// events:
+						inputEl.addEventListener( 'focus', onInputFocus );
+						inputEl.addEventListener( 'blur', onInputBlur );
+					} );
+
+					function onInputFocus( ev ) {
+						classie.add( ev.target.parentNode, 'input--filled' );
+					}
+
+					function onInputBlur( ev ) {
+						if( ev.target.value.trim() === '' ) {
+							classie.remove( ev.target.parentNode, 'input--filled' );
+						}
+					}
+				})();
+			</script>
+	<!-- SMOOTH SCROLL -->
 	<script>
-		$(function() {
-		  $('a[href*=#]:not([href=#])').click(function() {
-		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-		      var target = $(this.hash);
-		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-		      if (target.length) {
-		        $('html,body').animate({
-		          scrollTop: target.offset().top
-		        }, 1000);
-		        return false;
-		      }
-		    }
-		  });
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
 		});
 	</script>
   </body>
