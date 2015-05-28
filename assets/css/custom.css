@@ -17,15 +17,9 @@ section {
 }
 
 .masthead-content {
-<<<<<<< HEAD
-    top: 15%;
-    position: relative;
-    text-align: center;
-=======
 	top: 15%;
 	position: relative;
 	text-align: center;
->>>>>>> origin/master
 }
 
 .masthead-content img{
@@ -39,34 +33,20 @@ section {
 }
 
 .masthead-content h1 {
-<<<<<<< HEAD
-    font-weight: 700;
-    font-size: 46px;
-    -vendor-animation-delay: .5s!important;
-=======
 	font-weight: 700;
 	font-size: 46px;
 	-vendor-animation-delay: .5s!important;
->>>>>>> origin/master
     -webkit-animation-delay: .5s; /* Chrome, Safari, Opera */
     animation-delay: .5s;
 }
 
 
 .masthead-content p {
-<<<<<<< HEAD
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 3px;
-    color: #a1a1a1;
-    -vendor-animation-delay: .4s!important;
-=======
 	font-weight: 400;
 	font-size: 14px;
 	letter-spacing: 3px;
 	color: #a1a1a1;
 	-vendor-animation-delay: .4s!important;
->>>>>>> origin/master
     -webkit-animation-delay: .4s; /* Chrome, Safari, Opera */
     animation-delay: .4s;
 }
@@ -1066,7 +1046,6 @@ footer {
 /*Circle Hover Effects*/
 
 .circle-img {
-<<<<<<< HEAD
     width: 340px;
     height: 340px;
     margin: 0 auto;
@@ -1087,10 +1066,6 @@ footer {
     -o-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-=======
-	width: 340px;
-	height: 340px;
-	margin: 0 auto;
 }
 
 .ch-item {
@@ -1405,13 +1380,10 @@ footer {
         font-size: 18px;
     }
 
-<<<<<<< HEAD
     .about-me img {
       width: 40%;
     }
 
-=======
->>>>>>> origin/master
     } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
 
 // XXLarge screens
