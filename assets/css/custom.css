@@ -1,4 +1,5 @@
 /*HOME HTML*/
+
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -1214,16 +1215,48 @@ footer {
   position: fixed;
   background-color: rgb(37, 49, 70);
   min-height: 100%;
-  width: 300px;
+  width: 400px;
   padding: 30px;
 }
 
-.side-menu h1 {
-    font-size: 60px;
+.side-header h1 {
+    font-size: 40px;
     color: white;
     font-family: 'Montserrat', sans-serif;
     line-height: 40px;
-    font-weight: 700
+    font-weight: 700;
+}
+
+.side-header p {
+    font-size: 16px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.side-navs a {
+    font-size: 16px;
+    color: #a1a1a1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: block;
+    -webkit-transition: font-size .3s; /* Safari */
+    transition: font-size .3s;
+}
+
+.side-navs .active a {
+    font-size: 20px;
+    color: white;
+}
+
+.side-navs a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.side-navs div {
+    background: transparent;
+    text-align: center;
 }
 
 .side-menu h2 {
@@ -1235,13 +1268,85 @@ footer {
 }
 
 .side-header {
-    
+    text-align: center;
+}
+
+.side-header img {
+    width: 50%;
+    margin-bottom: 20px;
 }
 
 .resume-content {
-    padding: 20px 20px 20px 320px;
+    padding: 20px 20px 20px 434px;
 }
 
+.resume-section section {
+    padding-left: 85px;
+    padding-top: 0;
+}
+
+.resume-section h1 {
+    font-size: 28px;
+}
+
+.resume-section h2 {
+    font-size: 28px;
+}
+
+.resume-icon {
+    position: absolute;
+    width: 65px;
+}
+
+.resume-divider {
+    border: #F8A83A solid 2px;
+    margin: 0px 0px 30px 0px;
+}
+
+#skills .row {
+    margin: 0;
+}
+
+#skills.resume-section .fa {
+    font-size: 24px;
+    float: left;
+    margin-right: 12px;
+    background-color: #253146;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+#skills.resume-section h5 {
+    line-height: 50px;
+}
+
+.side-social {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    text-align: center;
+    left: 0px;
+}
+
+.side-social .fa {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.25);
+    line-height: 42px;
+    color: #253146;
+    margin: 0 4px;
+    font-size: 20px;
+    border-radius: 3px;
+    -webkit-transition: background-color .3s; /* Safari */
+    transition: background-color .3s;
+}
+
+.side-social .fa:hover {
+    background-color: white;
+}
 
 /* MEDIA QUERIES */
 
