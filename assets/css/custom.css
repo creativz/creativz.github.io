@@ -1576,7 +1576,25 @@ footer {
     }
 
     .panel.square p {
-        margin-bottom: 0;
+        margin-bottom: 0!important;
+    }
+
+    .nav-toggle {
+        top: 20px;
+        right: 20px;
+        padding: 21px 42px 23px 13px;
+    }
+
+    .nav-toggle span {
+        width: 29px;
+        height: 3px;
+    }
+
+    .link-to-top {
+        right: 20px;
+        bottom: 16px;
+        padding: 2px 18px;
+        font-size: 30px;
     }
 
     } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
