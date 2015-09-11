@@ -1580,14 +1580,14 @@ footer {
     }
 
     .nav-toggle {
-        top: 20px;
-        right: 20px;
-        padding: 21px 42px 23px 13px;
+        top: 20px!important;
+        right: 20px!important;
+        padding: 21px 42px 23px 13px!important;
     }
 
     .nav-toggle span {
-        width: 29px;
-        height: 3px;
+        width: 29px!important;
+        height: 3px!important;
     }
 
     .link-to-top {
