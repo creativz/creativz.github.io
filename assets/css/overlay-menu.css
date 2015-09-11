@@ -187,8 +187,8 @@
 }
 
 a.menuclick {
-  width: 200px;
-  height: 200px;
+  width: 120px;
+  height: 120px;
   border: 1px solid white;
   display: block;
   text-align: center;
@@ -197,8 +197,8 @@ a.menuclick {
 }
 
 a.menuclick .fa {
-  font-size: 54px;
-  line-height: 200px;
+  font-size: 40px;
+  line-height: 120px;
 }
 
 .overlay-link:nth-child(1) {

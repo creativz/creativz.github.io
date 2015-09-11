@@ -1,4 +1,5 @@
 /*HOME HTML*/
+
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -310,6 +311,48 @@ section {
     -vendor-animation-delay: 1.5s!important;
     -webkit-animation-delay: 1.5s; /* Chrome, Safari, Opera */
     animation-delay: 1.5s;
+}
+
+.portfolio-bg-7 {
+    -vendor-animation-delay: .1s!important;
+    -webkit-animation-delay: .1s; /* Chrome, Safari, Opera */
+    animation-delay: .1s;
+}
+
+.portfolio-bg-4 {
+    -vendor-animation-delay: .2s!important;
+    -webkit-animation-delay: .2s; /* Chrome, Safari, Opera */
+    animation-delay: .2s;
+}
+
+.portfolio-bg-5 {
+    -vendor-animation-delay: .3s!important;
+    -webkit-animation-delay: .3s; /* Chrome, Safari, Opera */
+    animation-delay: .3s;
+}
+
+.portfolio-bg-1 {
+    -vendor-animation-delay: .4s!important;
+    -webkit-animation-delay: .4s; /* Chrome, Safari, Opera */
+    animation-delay: .4s;
+}
+
+.portfolio-bg-3 {
+    -vendor-animation-delay: .5s!important;
+    -webkit-animation-delay: .5s; /* Chrome, Safari, Opera */
+    animation-delay: .5s;
+}
+
+.portfolio-bg-8 {
+    -vendor-animation-delay: .6s!important;
+    -webkit-animation-delay: .6s; /* Chrome, Safari, Opera */
+    animation-delay: .6s;
+}
+
+.portfolio-bg-6 {
+    -vendor-animation-delay: .7s!important;
+    -webkit-animation-delay: .7s; /* Chrome, Safari, Opera */
+    animation-delay: .7s;
 }
 
 .services i {
@@ -906,6 +949,7 @@ a.icon-link {
 #contact .field-input {
     padding: 0;
     margin-bottom: 20px;
+    z-index: 0;
 }
 
 #contact .field-input button {
@@ -1214,16 +1258,48 @@ footer {
   position: fixed;
   background-color: rgb(37, 49, 70);
   min-height: 100%;
-  width: 300px;
+  width: 400px;
   padding: 30px;
 }
 
-.side-menu h1 {
-    font-size: 60px;
+.side-header h1 {
+    font-size: 40px;
     color: white;
     font-family: 'Montserrat', sans-serif;
     line-height: 40px;
-    font-weight: 700
+    font-weight: 700;
+}
+
+.side-header p {
+    font-size: 16px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.side-navs a {
+    font-size: 16px;
+    color: #a1a1a1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: block;
+    -webkit-transition: font-size .3s; /* Safari */
+    transition: font-size .3s;
+}
+
+.side-navs .active a {
+    font-size: 20px;
+    color: white;
+}
+
+.side-navs a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.side-navs div {
+    background: transparent;
+    text-align: center;
 }
 
 .side-menu h2 {
@@ -1235,13 +1311,122 @@ footer {
 }
 
 .side-header {
-    
+    text-align: center;
+}
+
+.side-header img {
+    width: 50%;
+    margin-bottom: 20px;
 }
 
 .resume-content {
-    padding: 20px 20px 20px 320px;
+    padding: 20px 20px 20px 434px;
 }
 
+.resume-section section {
+    padding-left: 85px;
+    padding-top: 0;
+}
+
+.resume-section h1 {
+    font-size: 28px;
+}
+
+.resume-section h2 {
+    font-size: 28px;
+}
+
+.resume-icon {
+    position: absolute;
+    width: 65px;
+}
+
+.resume-divider {
+    border: #A1A1A1 solid 2px;
+    margin: 0px 0px 30px 0px;
+}
+
+#skills .row {
+    margin: 0;
+}
+
+#skills.resume-section .fa {
+    font-size: 24px;
+    float: left;
+    margin-right: 12px;
+    background-color: #253146;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+#skills.resume-section h5 {
+    line-height: 50px;
+}
+
+.side-social {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    text-align: center;
+    left: 0px;
+}
+
+.side-social .fa {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.25);
+    line-height: 42px;
+    color: #253146;
+    margin: 0 4px;
+    font-size: 20px;
+    border-radius: 3px;
+    -webkit-transition: background-color .3s; /* Safari */
+    transition: background-color .3s;
+}
+
+.side-social .fa:hover {
+    background-color: white;
+}
+
+.resume-header {
+    text-align: right;
+    padding: 20px;
+}
+
+/* PHOTOGRAPHY */
+
+.photography {
+    background: black url(/assets/images/bicycle.jpg) top right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow: hidden;
+}
+
+.message-container {
+    margin-top: 24vh;
+}
+
+.message h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.message h5 {
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.message .fa {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+    text-align: center;
+    border-radius: 3px;
+}
 
 /* MEDIA QUERIES */
 
