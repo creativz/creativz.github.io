@@ -468,6 +468,10 @@
 		</div>
 <!-- END OF OVERLAY MENU -->
 
+<div class="back-to-top">
+	<a href="#to-top" class="link-to-top hidden"><i class="fa fa-angle-double-up"></i></a>
+</div>
+
 <!-- MAIN CONTENT END -->
 	<footer>
 		<div class="row">
@@ -519,6 +523,7 @@
 
 		    $('#first-section').waypoint(function() {
 				  $('.top-menu .nav-toggle').toggleClass('animated slideInDown visible');
+				  $('.link-to-top').toggleClass('animated slideInUp visible');
 			      }, {
 			         offset: '30%',
 			         triggerOnce: false

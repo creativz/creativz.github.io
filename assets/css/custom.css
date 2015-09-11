@@ -1087,6 +1087,10 @@ footer {
     background: #49709b;
 }
 
+.contact-info .fa-flickr {
+    background: #ff0084;
+}
+
 /*Circle Hover Effects*/
 
 .circle-img {
@@ -1428,6 +1432,29 @@ footer {
     border-radius: 3px;
 }
 
+
+.back-to-top {
+    width: 100%;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+}
+
+.link-to-top {
+  position: absolute;
+  right: 50px;
+  bottom: 20px;
+  background: white;
+  padding: 0px 20px;
+  font-size: 40px;
+  color: black;
+}
+
+.link-to-top:hover {
+    background: #181f2d;
+    color: white;
+}
 /* MEDIA QUERIES */
 
 // Small screens
