@@ -1585,9 +1585,9 @@ footer {
         padding: 21px 42px 23px 13px!important;
     }
 
-    .nav-toggle span {
+    .nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
         width: 29px!important;
-        height: 3px!important;
+        height: 4px!important;
     }
 
     .link-to-top {
