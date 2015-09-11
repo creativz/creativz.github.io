@@ -1575,6 +1575,10 @@ footer {
         margin-top: 12px;
     }
 
+    .panel.square p {
+        margin-bottom: 0;
+    }
+
     } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 
 // XLarge screens
