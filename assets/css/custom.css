@@ -1326,6 +1326,7 @@ footer {
 .resume-section section {
     padding-left: 85px;
     padding-top: 0;
+<<<<<<< HEAD
 }
 
 .resume-section h1 {
@@ -1343,6 +1344,25 @@ footer {
 
 .resume-divider {
     border: #A1A1A1 solid 2px;
+=======
+}
+
+.resume-section h1 {
+    font-size: 28px;
+}
+
+.resume-section h2 {
+    font-size: 28px;
+}
+
+.resume-icon {
+    position: absolute;
+    width: 65px;
+}
+
+.resume-divider {
+    border: #F8A83A solid 2px;
+>>>>>>> origin/master
     margin: 0px 0px 30px 0px;
 }
 
@@ -1390,6 +1410,7 @@ footer {
 .side-social .fa:hover {
     background-color: white;
 }
+<<<<<<< HEAD
 
 .resume-header {
     text-align: right;
@@ -1427,6 +1448,8 @@ footer {
     text-align: center;
     border-radius: 3px;
 }
+=======
+>>>>>>> origin/master
 
 /* MEDIA QUERIES */
 
