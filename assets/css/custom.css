@@ -848,8 +848,8 @@ a.icon-link {
 
 .portfolio-wrapper:hover img {
     opacity: 0.5;
-    -webkit-transform: scale(.8);
-    transform: scale(.8);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .portfolio-wrapper:hover .menu {
